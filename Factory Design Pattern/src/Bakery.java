@@ -1,6 +1,16 @@
-
+/**
+ * 
+ * @author Cort Miles
+ *
+ *this class bakery has the create cake method and order cake method within it
+ */
 public class Bakery{
-	
+	 
+	/**
+	 * 
+	 * @param String type (takes in a string called type)
+	 * @return this method returns the type of cake that is being created and creates it
+	 */
 	private Cake createCake(String type)
 	{
 		Cake cake;
@@ -24,7 +34,11 @@ public class Bakery{
 		
 		return cake;
 	}
-	
+	/**
+	 * 
+	 * @param String type (takes in a string called type)
+	 * @return this method returns the cake and prints out all the information regarding the cake
+	 */
 	public Cake orderCake(String type)
 	{
 	

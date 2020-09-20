@@ -1,6 +1,12 @@
-
+/**
+ * 
+ * @author Cort Miles
+ *This is a child class that extends from its parent, cake
+ */
 public class CarrotCake extends Cake {
-	
+	/**
+	 * This sets all the instance variables to the data assigned for a Carrot cake.
+	 */
 	public CarrotCake()
 	{
 	name = "Carrot Cake";
